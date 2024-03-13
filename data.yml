@@ -1,6 +1,13 @@
 defaultStorageMapping: SAMPLE_DATA
 installedPackages: {}
-jobs: {}
+jobs:
+  Job-2:
+    excludeSelector: ""
+    id: 2
+    includeSelector: "{ location: PROJ_STORAGE name: PSTG_YOUNG_CUSTOMER }"
+    name: New Job
+    steps: []
+    subgraphs: []
 locations: {}
 macros: {}
 packages: {}
@@ -1464,5 +1471,10 @@ stepTypes:
             {% endif %}
     name: Persistent Stage
     version: 1
-subgraphs: {}
+subgraphs:
+  Subgraph-2:
+    id: "2"
+    name: New Subgraph
+    steps:
+      - 5f939720-06de-42a4-85f0-c1343aaff609
 version: 2
