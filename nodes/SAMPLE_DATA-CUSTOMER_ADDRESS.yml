@@ -1,0 +1,213 @@
+steps:
+  CUSTOMER_ADDRESS-3a15a0f1-9d32-4a4f-8a51-07aec7f4d9c3:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationName: SAMPLE_DATA
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 6f8a8ff7-7f84-4f92-864b-3474e96ea2a3
+              stepCounter: 3a15a0f1-9d32-4a4f-8a51-07aec7f4d9c3
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: CA_ADDRESS_SK
+            nullable: false
+            primaryKey: true
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 90a932b9-ae2d-46b2-b2b3-9e17a89a418c
+              stepCounter: 3a15a0f1-9d32-4a4f-8a51-07aec7f4d9c3
+            config: {}
+            dataType: VARCHAR(16)
+            defaultValue: ""
+            description: ""
+            name: CA_ADDRESS_ID
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: a7ff2228-2015-4a30-b927-f44dc772abf2
+              stepCounter: 3a15a0f1-9d32-4a4f-8a51-07aec7f4d9c3
+            config: {}
+            dataType: VARCHAR(10)
+            defaultValue: ""
+            description: ""
+            name: CA_STREET_NUMBER
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 55c2a448-7c34-4f13-8bee-4edb16ee5865
+              stepCounter: 3a15a0f1-9d32-4a4f-8a51-07aec7f4d9c3
+            config: {}
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: CA_STREET_NAME
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 6e9df5c7-894e-4a61-9c0c-4e085eae3c6e
+              stepCounter: 3a15a0f1-9d32-4a4f-8a51-07aec7f4d9c3
+            config: {}
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: ""
+            name: CA_STREET_TYPE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: aadd3913-9e6b-4629-8017-12f505a23b29
+              stepCounter: 3a15a0f1-9d32-4a4f-8a51-07aec7f4d9c3
+            config: {}
+            dataType: VARCHAR(10)
+            defaultValue: ""
+            description: ""
+            name: CA_SUITE_NUMBER
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: dfaad569-af6e-4667-a325-74c9311b1bbd
+              stepCounter: 3a15a0f1-9d32-4a4f-8a51-07aec7f4d9c3
+            config: {}
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: CA_CITY
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 1b51f5f9-1f86-44f6-ba28-7b6ab282f313
+              stepCounter: 3a15a0f1-9d32-4a4f-8a51-07aec7f4d9c3
+            config: {}
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: CA_COUNTY
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: f8571ba4-41e6-4120-ad27-645823152886
+              stepCounter: 3a15a0f1-9d32-4a4f-8a51-07aec7f4d9c3
+            config: {}
+            dataType: VARCHAR(2)
+            defaultValue: ""
+            description: ""
+            name: CA_STATE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 0449b49e-180e-4435-9171-6529a349d881
+              stepCounter: 3a15a0f1-9d32-4a4f-8a51-07aec7f4d9c3
+            config: {}
+            dataType: VARCHAR(10)
+            defaultValue: ""
+            description: ""
+            name: CA_ZIP
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: c30c8bc8-6f49-4edc-8bd2-169ef85cac86
+              stepCounter: 3a15a0f1-9d32-4a4f-8a51-07aec7f4d9c3
+            config: {}
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: CA_COUNTRY
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 2d614877-b745-4774-aff9-453d45db8a24
+              stepCounter: 3a15a0f1-9d32-4a4f-8a51-07aec7f4d9c3
+            config: {}
+            dataType: NUMBER(5,2)
+            defaultValue: ""
+            description: ""
+            name: CA_GMT_OFFSET
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 2a737b06-a82b-4e1f-a799-f17ea9c0b4b3
+              stepCounter: 3a15a0f1-9d32-4a4f-8a51-07aec7f4d9c3
+            config: {}
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: CA_LOCATION_TYPE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SAMPLE_DATA', 'CUSTOMER_ADDRESS') }}
+      name: CUSTOMER_ADDRESS
+      schema: ""
+      sqlType: Source
+      table: CUSTOMER_ADDRESS
+      type: sourceInput
+    stepCounter: 3a15a0f1-9d32-4a4f-8a51-07aec7f4d9c3
